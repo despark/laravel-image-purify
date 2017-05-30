@@ -1,0 +1,24 @@
+{
+    "name": "despark/laravel-image-purify",
+    "description": "Laravel wrapper for https://github.com/despark/image-purify",
+    "keywords": [
+        "image optimizer", "compression", "image", "optimization", "jpegoptim", "optipng", "mozjpeg", "laravel"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ludmil Simeonov",
+            "email": "lsimeonov@despark.com"
+        }
+    ],
+    "require": {
+        "despark/image-purify": "~0.1.0|@dev",
+        "illuminate/support": "5.4.*|5.3.*|5.2.*|5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Despark\\Laravel\\ImagePurify\\": "src"
+        }
+    }
+}
