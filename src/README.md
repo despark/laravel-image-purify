@@ -25,6 +25,11 @@ $aliases = [
 ]
 ```
 
+If you need custom options you can publish the config via
+```bash
+php artisan vendor:publish --provider "Despark\Laravel\ImagePurify\ImagePurifyServiceProvider" --tag config
+```
+
 ## Example Usage
 ```php
 

@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "despark/image-purify": "~0.1.0|@dev",
+        "despark/image-purify": "^0.3",
         "illuminate/support": "5.4.*|5.3.*|5.2.*|5.1.*"
     },
     "autoload": {
