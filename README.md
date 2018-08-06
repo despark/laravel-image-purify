@@ -7,7 +7,10 @@ Get it from composer
 composer require despark/laravel-image-purify
 ```
 
-Add our service provider to `config/app.php`
+With Laravel 5.5 or newer, the package will be discovered automatically.
+If you're using an older version of Laravel, add the following to your
+`config/app.php` file:
+
 ```php
 $providers = [
     ...

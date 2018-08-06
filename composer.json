@@ -20,5 +20,15 @@
         "psr-4": {
             "Despark\\Laravel\\ImagePurify\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Despark\\Laravel\\ImagePurify\\ImagePurifyServiceProvider"
+            ],
+            "aliases": {
+                "ImagePurify": "Despark\\Laravel\\ImagePurify\\Facades\\ImagePurify"
+            }
+        }
     }
 }
