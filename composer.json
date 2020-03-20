@@ -14,7 +14,7 @@
     ],
     "require": {
         "despark/image-purify": "^0.1",
-        "illuminate/support": "^5.1"
+        "illuminate/support": "^5.1|^6.0|^7.0"
     },
     "autoload": {
         "psr-4": {
